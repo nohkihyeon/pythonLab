@@ -1,3 +1,5 @@
+# Dynamic Programming
+
 import time
 
 d = [0] * 50
