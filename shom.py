@@ -1,3 +1,5 @@
+# shom
+
 N = int(input())
 cnt =0
 number = 666

@@ -1,3 +1,5 @@
+# list
+
 import sys
 
 n = int(input())
