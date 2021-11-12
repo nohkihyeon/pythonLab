@@ -9,17 +9,19 @@ for i in range(2, N+1):
         for j in range(2*i, N+1, i):
             prime[j] = False
 
-
 start = 0
 end = 0
 sum = 0
 ans = 0
 
-while end <= len(prime):
-    tmp = sum(prime[start:end])
+while(True):
     if sum >= N:
+        sum -= primeArray[start]
         start +=1
+    elif end == len(primeArray):
+        break
     else:
+        sum += primeArray[end]
         end += 1
 
     if sum == N:
